@@ -12,7 +12,6 @@ function handleSubmit(event) {
     if (dataOb.email === "" || dataOb.password === "") {
         return alert("всі поля повинні бути заповнені")
     }
-    console.log(dataOb)
 
     formEl.reset();
    

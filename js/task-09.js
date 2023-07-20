@@ -8,11 +8,10 @@ const widgetEl = document.querySelector(".widget");
 const colorEl = document.querySelector(".color");
 const buttonChangeEl = document.querySelector(".change-color")
 
-console.log(buttonChangeEl)
 
 buttonChangeEl.addEventListener('click', function () {
   const colorRandomEl = getRandomHexColor();
   document.body.style.backgroundColor = colorRandomEl;
   colorEl.textContent = colorRandomEl;
-  console.log(colorRandomEl)
+  
 })
